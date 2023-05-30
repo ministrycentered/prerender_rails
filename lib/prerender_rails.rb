@@ -19,6 +19,7 @@ module Rack
 
       @crawler_user_agents = [
         'googlebot',
+        'Google-InspectionTool',
         'yahoo',
         'bingbot',
         'baiduspider',
@@ -48,7 +49,8 @@ module Rack
         'Discordbot',
         'Google Page Speed',
         'Qwantify',
-        'Chrome-Lighthouse'
+        'Chrome-Lighthouse',
+        'TelegramBot'
       ]
 
       @extensions_to_ignore = [
